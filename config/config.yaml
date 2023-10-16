@@ -1,0 +1,30 @@
+bird:
+  position:
+    x: 70
+    y: 350
+  size :
+    width: 50
+    height: 50
+  jump-height: 10
+assets:
+  images:
+    bird:
+      flying:
+        - "assets/0.png" # -> wird akutell nicht benutzt
+        - "assets/1.png
+        - "assets/2.png"
+      dead: "assets/dead.png"
+    backgroud: "assets/background.png"
+    walls:
+      wall_up: "assets/bottom.png"
+      wall_down: "assets/top.png"
+game:
+    screen:
+      width: 400
+      height: 708
+    walls:
+      gap: 130
+      spawn_x: 400
+      random_offset_min: -110
+      random_offset_max: 112
+    gravity: 5
